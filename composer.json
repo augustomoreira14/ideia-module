@@ -1,0 +1,25 @@
+{
+  "name": "ideia/module",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "augusto",
+      "email": "augustomoreira14@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ideia\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  }
+}
